@@ -39,4 +39,24 @@ export const devProjects = [
     image: require(".//../../public/projects/retail.jpeg"),
     available: true,
   },
+  {
+    id: 3,
+    name: "EveryWhere",
+    description:
+      "This pipeline performs data analytics on delivery and logistics company's data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.",
+    technologies: ["Big Query", "Mage AI", "Looker"],
+    github: "https://github.com/victortosin02/Everywhere_Logistics_etl_pipeline",
+    image: require(".//../../public/projects/mage.jpg"),
+    available: true,
+  },
+  {
+    id: 4,
+    name: "Tradr Pipeline",
+    description:
+      "A robust data pipeline that can extract, transform and load the csv data from the source data system to a SQL-based database within AWS.",
+    technologies: ["Airflow", "Docker", "AWS"],
+    github: "https://github.com/victortosin02/Stock_Market_Data_With_Airflow",
+    image: require(".//../../public/projects/pipeline-components.jpg"),
+    available: true,
+  },
 ];
