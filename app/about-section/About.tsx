@@ -12,7 +12,7 @@ const About = () => {
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
         <AnimatedTitle
           text={
-            "I MAKE BRANDS BEAUTIFUL, WEBSITES POWERFUL AND CONTENT CAPTIVATING."
+            "I MAKE BRANDS BEAUTIFUL, WEBSITES POWERFUL AND DATA INSIGHTFUL."
           }
           className={
             "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
@@ -25,7 +25,7 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "I specialize in building AI-powered applications and ensuring robust data pipelines through automation, orchestration, containerization, logging, and monitoring mechanisms. With a keen focus on frontend engineering and data engineering, I craft high-converting landing pages and websites for SaaS, Web3, and AI startups, ensuring seamless integration of data and user experience."
+                "I specialize in building AI-powered applications and ensuring robust data pipelines through automation, orchestration, containerization, logging, and monitoring mechanisms. With a keen focus on software development and data engineering, I innovative solutions for SaaS, and AI startups, ensuring seamless integration of data and user experience."
               }
             />
             <AnimatedBody
@@ -34,11 +34,6 @@ const About = () => {
               }
               className={"hidden"}
             />
-            {/* <AnimatedBody
-              text={
-                "Beyond my work as a frontend developer, I'm an active leader in tech communities on campus. As a member of the Google Developer Student Clubs and Microsoft Learn Student Ambassadors, I've led workshops and mentored other students."
-              }
-            /> */}
             <AnimatedBody
               text={
                 "Asides from Data and Software Engineering, I design Ebooks for clients on freelance basis and I have over 17 books published on Amazon KDP."
@@ -54,7 +49,7 @@ const About = () => {
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
             <div className="flex flex-col gap-4 md:gap-3">
               <AnimatedTitle
-                text={"Frontend Tools"}
+                text={"Softwre Development Tools"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -63,7 +58,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "JavaScript (ES6+), React, Next.js, TypeScript, Redux, Redux Toolkit, React Testing Library, Vitetest, HTML5, Git/GitHub, Clerk, NextAuth, and Formik."
+                  "JavaScript (ES6+), React, Next.js, TypeScript, NodeJS, Redux, Redux Toolkit, React Testing Library, Vitetest, Shadcn, Zod, Prisma, TailwindCSS, HTML5, Git/GitHub, Clerk, NextAuth, and Formik."
                 }
               />
             </div>
@@ -112,21 +107,6 @@ const About = () => {
                 }
               />
             </div>
-            {/* <div className="flex flex-col gap-3">
-              <AnimatedTitle
-                text={"Design Tools"}
-                className={
-                  "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-              <AnimatedBody
-                text={
-                  "Figma, Framer, FigJam, Adobe XD, Canva, Adobe Photoshop and Kotobee."
-                }
-              />
-            </div> */}
           </div>
         </div>
         <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
