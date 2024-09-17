@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Victor Oladejo — Frontend Developer and Data Engineer",
   description:
-    "Frontend Developer at CloudWare Technologies and freelance Data Engineer. My strength lies in building AI powered applications and currently working remotely from Lagos, Nigeria.",
+    "Software Developer at CloudWare Technologies and freelance Data Engineer. My strength lies in building AI powered applications and currently working remotely from Nigeria.",
   generator: "Next.js",
   applicationName: "Victor Oladejo",
   keywords: [
@@ -48,17 +48,17 @@ export const metadata: Metadata = {
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "Victor Oladejo — Frontend Developer and Data Engineer",
+    title: "Victor Oladejo — Software Developer and Data Engineer",
     description:
       "Frontend Developer at CloudWare Technologies and freelance Data Engineer. My strength lies in building AI powered applications and currently working remotely from Lagos, Nigeria.",
     url: "https://www.victorwilliams.me",
-    siteName: "Victor Oladejo — Frontend Developer and Data Engineer",
+    siteName: "Software Developer and Data Engineer",
     images: [
       {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
         width: 1200,
         height: 630,
-        alt: "Victor Oladejo — Frontend Developer and Data Engineer",
+        alt: "VictorOladejo - Software Developer and Data Engineer",
       },
     ],
     locale: "en-US",
@@ -66,9 +66,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victor Oladejo — Frontend Developer and Data Engineer",
+    title: "Victor Oladejo — Software Developer and Data Engineer",
     description:
-      "Frontend Developer at CloudWare Technologies and freelance Data Engineer. My strength lies in building AI powered applications and currently working remotely from Lagos, Nigeria.",
+      "Software Developer at CloudWare Technologies and freelance Data Engineer. My strength lies in building AI powered applications and currently working remotely from Lagos, Nigeria.",
     creator: "@victortosin01",
     images: [
       "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
