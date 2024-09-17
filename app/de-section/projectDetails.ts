@@ -51,9 +51,9 @@ export const devProjects = [
   },
   {
     id: 4,
-    name: "Tradr Pipeline",
+    name: "Tradr",
     description:
-      "A robust data pipeline that can extract, transform and load the csv data from the source data system to a SQL-based database within AWS.",
+      "A application that can extract, transform and load the data from the source data system to a SQL-based database within AWS.",
     technologies: ["Airflow", "Docker", "AWS"],
     github: "https://github.com/victortosin02/Stock_Market_Data_With_Airflow",
     image: require(".//../../public/projects/pipeline-components.jpg"),

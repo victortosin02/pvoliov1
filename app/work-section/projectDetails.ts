@@ -18,7 +18,7 @@ export const devProjects = [
     technologies: ["NextJS", "Tailwind CSS", "Twilio"],
     github: "https://github.com/victortosin02/health-checkup-booking-app",
     demo: "https://health-checkup-booking-app-2.onrender.com/",
-    image: require(".//../../public/projects/medhub (1).png"),
+    image: require("../../public/projects/medhub (1).png"),
     available: true,
   },
   {
@@ -29,7 +29,7 @@ export const devProjects = [
     technologies: ["Next.js", "TailwindCSS", "Open Weather API"],
     github: "https://github.com/victortosin02/weather-app",
     demo: "https://weather-app-1-v9xe.onrender.com/",
-    image: require(".//../../public/projects/weather.png"),
+    image: require("../../public/projects/weather.png"),
     available: true,
   },
   {
@@ -40,7 +40,7 @@ export const devProjects = [
     technologies: ["React/NextJS", "Tailwind CSS", "Plaid"],
     github: "https://github.com/victortosin02/digibank",
     demo: "https://digibank.onrender.com",
-    image: require(".//../../public/projects/auth-photo.jpg"),
+    image: require("../../public/projects/auth-photo.jpg"),
     available: true,
   }
 ];

@@ -4,9 +4,13 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import { faGithub, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import Profile from "../../public/photo-victor.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faX, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Hero = () => {
@@ -24,7 +28,7 @@ const Hero = () => {
           <Link
             href="https://cal.com/victor-tosin-acqv8g/30min"
             target="_blank"
-            aria-label="BOOK A CALL"
+            aria-label="Book a Call"
           >
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
@@ -45,7 +49,10 @@ const Hero = () => {
               className="text-[16px] font-bold text-white md:text-[16px]"
               variants={bodyAnimation}
             >
-              <FontAwesomeIcon icon={faGithub} className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"/>
+              <FontAwesomeIcon
+                icon={faGithub}
+                className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+              />
               {/* <Link src={faGithub} alt="X" height={24} width={24} /> */}
             </motion.div>
           </Link>
@@ -58,7 +65,10 @@ const Hero = () => {
               className="text-[16px] font-bold text-white md:text-[16px]"
               variants={bodyAnimation}
             >
-              <FontAwesomeIcon icon={faLinkedin} className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"/>
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+              />
               {/* <Image src={Linkedin} alt="linkedin" height={24} width={24} /> */}
             </motion.div>
           </Link>
@@ -71,13 +81,15 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              <FontAwesomeIcon icon={faX} className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"/>
+              <FontAwesomeIcon
+                icon={faX}
+                className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+              />
               {/* <Image src={Twitter} alt="X" height={24} width={24} /> */}
             </motion.div>
           </Link>
           <Link
             href="https://cal.com/victor-tosin-acqv8g/30min"
-            victor-tosin-acqv8g
             target="_blank"
             aria-label="View Contra Profile"
           >
@@ -85,7 +97,10 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              <FontAwesomeIcon icon={faPhone} className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"/>
+              <FontAwesomeIcon
+                icon={faPhone}
+                className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
+              />
             </motion.p>
           </Link>
         </div>
