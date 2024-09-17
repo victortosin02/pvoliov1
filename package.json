@@ -17,6 +17,7 @@
     "@types/react-dom": "^18.3.0",
     "@vercel/analytics": "^0.1.11",
     "blobity": "^0.2.3",
+    "caniuse-lite": "^1.0.30001660",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "font-awesome": "^4.7.0",
