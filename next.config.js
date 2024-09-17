@@ -13,13 +13,6 @@ const nextConfig = {
             "raw.githubusercontent.com", // Correctly added this domain
         ],
     },
-    fontLoaders: [{
-        loader: "@next/font/google",
-        options: {
-            subsets: ["latin"],
-            weight: ["400", "500", "600", "700", "800"],
-        },
-    }, ],
 };
 
 module.exports = nextConfig;
