@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     siteName: "Software Developer and Data Engineer",
     images: [
       {
-        url: "https://raw.githubusercontent.com/victortosin02/pvoliov1/main/uploads/motion%20tracker.png",
+        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
         width: 1200,
         height: 630,
         alt: "VictorOladejo - Software Developer and Data Engineer",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
       "Software Developer and Data Engineer. My strength lies in building AI powered applications.",
     creator: "@victortosin01",
     images: [
-      "https://raw.githubusercontent.com/victortosin02/pvoliov1/main/uploads/motion%20tracker.png",
+      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
     ],
   },
   robots: {
