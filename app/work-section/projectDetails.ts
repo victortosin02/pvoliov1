@@ -25,7 +25,7 @@ export const devProjects = [
     id: 1,
     name: "SmartSky",
     description:
-      "SmartSky is a comprehensive weather application that provides real-time weather data, daily forecasts, and a five-day outlook. The application also offers detailed information on UV Index, air pollution, wind conditions, and sunset times.",
+      "SmartSky is a comprehensive weather application that provides real-time weather data, daily forecasts, and a five-day outlook.",
     technologies: ["Next.js", "TailwindCSS", "Open Weather API"],
     github: "https://github.com/victortosin02/weather-app",
     demo: "https://weather-app-1-v9xe.onrender.com/",
