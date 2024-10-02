@@ -137,14 +137,14 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Data Engineer, at{" "}
+            Software Engineer, prev at{" "}
             <Link
-              href="https://www.hackerrank.com/"
+              href="https://www.cloudware.ng/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="CloudWare Website"
             >
-              Hackerrank Inc (External Talent),
+              CloudWare Technologies,
             </Link>{" "}
             currently available for work.
           </p>
