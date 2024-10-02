@@ -29,7 +29,7 @@ export const devProjects = [
     technologies: ["Next.js", "TailwindCSS", "Open Weather API"],
     github: "https://github.com/victortosin02/weather-app",
     demo: "https://weather-app-1-v9xe.onrender.com/",
-    image: require("../../public/projects/weather.JPG"),
+    image: require("../../public/projects/weather.jpg"),
     available: true,
   },
   {
