@@ -21,7 +21,7 @@ export const devProjects = [
   },
   {
     id: 1,
-    name: "Streamfix",
+    name: "Helmfix",
     description:
       "This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured videos from Streamfix real time data.",
     technologies: ["Python", "AWS Services"],
@@ -53,7 +53,7 @@ export const devProjects = [
     id: 4,
     name: "Tradr",
     description:
-      "A application that can extract, transform and load the data from the source data system to a SQL-based database within AWS.",
+      "An application that can extract, transform and load the data from the source data system to a SQL-based database within AWS.",
     technologies: ["Airflow", "Docker", "AWS"],
     github: "https://github.com/victortosin02/Stock_Market_Data_With_Airflow",
     image: require(".//../../public/projects/pipeline-components.jpg"),

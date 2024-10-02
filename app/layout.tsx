@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Victor Oladejo — Frontend Developer and Data Engineer",
   description:
-    "Software Developer at CloudWare Technologies and freelance Data Engineer. My strength lies in building AI powered applications and currently working remotely from Nigeria.",
+    "Software Developer and Data Engineer. My strength lies in building AI powered applications.",
   generator: "Next.js",
   applicationName: "Victor Oladejo",
   keywords: [
@@ -43,15 +43,13 @@ export const metadata: Metadata = {
     "software",
     "software developer",
     "portfolio",
-    "frontend developer portfolio",
-    "creative developer portfolio",
   ],
   colorScheme: "dark",
   openGraph: {
     title: "Victor Oladejo — Software Developer and Data Engineer",
     description:
-      "Frontend Developer at CloudWare Technologies and freelance Data Engineer. My strength lies in building AI powered applications and currently working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me",
+      "Software Developer and Data Engineer. My strength lies in building AI powered applications.",
+    url: "https://victorportfolio.onrender.com",
     siteName: "Software Developer and Data Engineer",
     images: [
       {
@@ -68,7 +66,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Victor Oladejo — Software Developer and Data Engineer",
     description:
-      "Software Developer at CloudWare Technologies and freelance Data Engineer. My strength lies in building AI powered applications and currently working remotely from Lagos, Nigeria.",
+      "Software Developer and Data Engineer. My strength lies in building AI powered applications.",
     creator: "@victortosin01",
     images: [
       "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
@@ -88,7 +86,7 @@ export const metadata: Metadata = {
     },
   },
   category: "technology",
-  metadataBase: new URL("https://www.victorwilliams.me"),
+  metadataBase: new URL("https://victorportfolio.onrender.com"),
 };
 
 type RootLayoutProps = {

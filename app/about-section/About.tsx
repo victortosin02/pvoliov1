@@ -49,7 +49,7 @@ const About = () => {
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
             <div className="flex flex-col gap-4 md:gap-3">
               <AnimatedTitle
-                text={"Softwre Development Tools"}
+                text={"Software Development Tools"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }

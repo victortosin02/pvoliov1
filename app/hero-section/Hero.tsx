@@ -53,7 +53,6 @@ const Hero = () => {
                 icon={faGithub}
                 className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
               />
-              {/* <Link src={faGithub} alt="X" height={24} width={24} /> */}
             </motion.div>
           </Link>
           <Link
@@ -69,7 +68,6 @@ const Hero = () => {
                 icon={faLinkedin}
                 className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
               />
-              {/* <Image src={Linkedin} alt="linkedin" height={24} width={24} /> */}
             </motion.div>
           </Link>
           <Link
@@ -85,7 +83,6 @@ const Hero = () => {
                 icon={faX}
                 className=" w-[20px] rounded-full text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
               />
-              {/* <Image src={Twitter} alt="X" height={24} width={24} /> */}
             </motion.div>
           </Link>
           <Link
@@ -140,14 +137,14 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Software and Data Engineer, at{" "}
+            Data Engineer, at{" "}
             <Link
-              href="https://www.cloudware.ng/"
+              href="https://www.hackerrank.com/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="CloudWare Website"
             >
-              CloudWare Technologies,
+              Hackerrank Inc (External Talent),
             </Link>{" "}
             currently available for work.
           </p>
@@ -159,8 +156,7 @@ const Hero = () => {
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
             Adept at building user interfaces and experiences and engineering
-            data pipelines for AI integration into solutions, working remotely
-            from Lagos, Nigeria.
+            data pipelines for AI integration into solutions.
           </p>
         </motion.div>
       </div>
