@@ -10,8 +10,19 @@ export type ProjectProps = {
 };
 
 export const devProjects = [
-  {
+   {
     id: 0,
+    name: "Squemart",
+    description:
+      "Squemart is an online hub for gadgets, appliances and accessories with proof of quality and excellence in delivery.",
+    technologies: ["NextJS", "Open AI", "Paystack"],
+    github: "https://github.com/victortosin02/squemart-ecommerce",
+    demo: "https://squemart-ecommerce.onrender.com/",
+    image: require("../../public/projects/squemart.png"),
+    available: true,
+  },
+  {
+    id: 1,
     name: "MedHub",
     description:
       "A healthcare patient management application that allows patients to easily register, book, and manage their appointments.",
@@ -22,7 +33,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 1,
+    id: 2,
     name: "SmartSky",
     description:
       "SmartSky is a comprehensive weather application that provides real-time weather data, daily forecasts, and a five-day outlook.",
@@ -33,7 +44,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 2,
+    id: 3,
     name: "DigiBank",
     description:
       "DigiBank is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money.",
