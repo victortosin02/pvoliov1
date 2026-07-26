@@ -12,13 +12,24 @@ export type ProjectProps = {
 export const devProjects = [
    {
     id: 0,
-    name: "Squemart",
+    name: "Squemart Ecommerce",
     description:
       "Squemart is an online hub for gadgets, appliances and accessories with proof of quality and excellence in delivery.",
     technologies: ["NextJS", "Open AI", "Paystack"],
     github: "https://github.com/victortosin02/squemart-ecommerce",
-    demo: "https://squemart-ecommerce.onrender.com/",
-    image: require("../../public/projects/squemart.png"),
+    demo: "https://squemart.com/",
+    image: require("../../public/projects/squemart-website.png"),
+    available: true,
+  },
+  {
+    id: 1,
+    name: "Squemart Admin",
+    description:
+      "Squemart Admin is a management interface for the Squemart e-commerce platform, allowing administrators to manage products, orders, and users.",
+    technologies: ["NextJS", "Open AI", "Paystack"],
+    github: "https://github.com/victortosin02/squemart-ecommerce",
+    demo: "https://admin.squemart.com/",
+    image: require("../../public/projects/admin-squemart-website.png"),
     available: true,
   },
   {
